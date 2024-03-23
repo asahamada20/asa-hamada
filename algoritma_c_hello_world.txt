@@ -1,0 +1,22 @@
+algoritma c++ hello world
+
+1.#include <iostream>
+Di baris paling awal terdapat kode #include <iostream>. Perintah atau liblary #include dipakai untuk memasukkan sebuah file khusus yang memungkinkan kita mengakses berbagai fitur tambahan dalam bahasa C++.
+
+Dalam contoh diatas, file iostream berisi kode program agar nantinya kita bisa mengakses perintah input/output seperti cout. iostream sendiri merupakan singkatan dari input output stream.
+
+2.using namespace std;
+fungsi using namespace std ini menghilangkan kebutuhan untuk menambahkan std:: sebelum setiap fungsi atau objek dari namespace standar C++, seperti cout.
+
+3.int main() { }
+Struktur main() pada dasarnya merupakan sebuah function. Isi dari function ini diawali dan diakhiri dengan tanda kurung kurawal " { " dan " } ". Di dalam tanda kurung inilah "isi" dari kode program penyusun function main() ditulis.
+
+4.cout << "Hello World!";
+Perintah cout berguna untuk menampilkan sesuatu ke layar. Perintah ini merupakan bagian dari header iostream, sehingga jika kita ingin menggunakannya harus terdapat perintah #include <iostream> di bagian paling awal kode program bahasa C++.
+
+Teks yang ingin ditampilkan ditulis setelah tanda << dan berada dalam tanda kutip dua, seperti cout << "Hello World!". Hasil dari perintah ini, akan tampil teks Hello, World! di layar.
+
+5.return 0;
+Perintah return 0; berhubungan dengan kode int main() sebelumnya. Disinilah program menutup function main() yang sekaligus mengakhiri kode program bahasa C++.
+
+Return 0 artinya kembalikan nilai 0 (nol) ke sistem operasi yang menjalankan kode program ini. Nilai 0 menandakan kode program berjalan normal dan tidak ada masalah
